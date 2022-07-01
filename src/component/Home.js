@@ -140,50 +140,6 @@ class App extends Component {
     }
   }
 
-
-
-  // handleClick(a) {
-  //   var serverPost = "https://diamtestnet.diamcircle.io/transactions/" + a
-
-  //   axios.get(serverPost).then(response => {
-  //     if (response.status == 200) {
-  //       this.setState({ search: a })
-  //       this.setState({ to: "/aboutTran/" })
-  //       this.setState({ type: "Transactions" })
-
-  //       console.log("transaction", response.status)
-  //     }
-  //   })
-
-  //   var serverPost1 = "https://diamtestnet.diamcircle.io/ledgers/" + a;
-
-  //   axios.get(serverPost1).then(response => {
-  //     if (response.status == 200) {
-  //       this.setState({ search: a })
-  //       this.setState({ to: "/aboutled/" })
-  //       this.setState({ type: "ledgerDetails" })
-
-  //       console.log("ledger", response.status)
-  //     }
-  //   })
-
-  //   var serverPost2 = "https://diamtestnet.diamcircle.io/accounts/" + a;
-
-  //   axios.get(serverPost2).then(response => {
-  //     if (response.status == 200) {
-  //       this.setState({ search: a })
-  //       this.setState({ to: "/aboutAcc/" })
-  //       this.setState({ type: "AccountDetails" })
-
-  //       console.log("account", response.status)
-  //     }
-  //     else {
-  //       this.setState({ to: "/notfound" })
-  //       console.log("calvin", this.state.to)
-  //     }
-  //   })
-  // }
-
   obj(a) {
     var newTo = {
       pathname: a,
@@ -238,8 +194,8 @@ class App extends Component {
           <br></br>
           <div class='container' style={{ backgroundColor: 'white', borderBlockColor: 'GrayText' }}>
             <div class="row">
-              <div class="col"><a href="/"> <div style={{ color: '#808080', fontWeight: 'bold', fontSize: "20px"  }}>Diamante Blockchain</div>  </a> </div>
-              <div class="col"><div style={{ color: '#808080',float:"left" , fontWeight: 'bold', fontSize: "20px"  }}>Mainnet Explorer</div> </div>
+              <div class="col"><a href="/"> <div style={{ color: '#808080', fontWeight: 'bold', fontSize: "20px"  }}>Blockchain Explorer</div>  </a> </div>
+              <div class="col"><div style={{ color: '#808080',float:"left" , fontWeight: 'bold', fontSize: "20px"  }}>Mainnet</div> </div>
               <div class="col">
                 {/* <div class="input-group mb-3" >
                   <input type="text" class="form-control" onChange={(e) => this.handleClick(e.target.value)} placeholder="Tx hash / Address / ledger" id="myInput" onKeyPress={(e) => this._handleKeyDown(e)} ></input>
@@ -259,7 +215,7 @@ class App extends Component {
               <table class="table table-bordered" style={{  width:"100p%"}}>
                 <thead style={{ backgroundColor: '#f2f2f2' }}>
                   <tr>
-                    <th style={{ fontWeight: 'bold', textAlign: 'center', fontSize: "17px" }} colspan="4"> DIAM</th>
+                    <th style={{ fontWeight: 'bold', textAlign: 'center', fontSize: "17px" }} colspan="4"> Test</th>
 
                   </tr>
 
@@ -319,15 +275,6 @@ class App extends Component {
               </hr>
 
               <br></br>
-              {/* <table class="table table-bordered"  style={{  width:"350px"}} >
-                <thead style={{ backgroundColor: '#f2f2f2' }}>
-                  <tr style={{ fontWeight: 'bold', textAlign: 'center' }}>
-                    <th>
-                      Conversions
-                      <Card>
-                        <Card.Body>This is some text within a card body.</Card.Body>
-                      </Card>
-                    </th></tr></thead></table> */}
                     <p>cal</p>
                     <div style={{backgroundColor:"white"}}>
         <LineChart />

@@ -146,21 +146,6 @@ function Account() {
 
 
     <div>
-      {/* <div class="row" style={{ backgroundColor: 'white', borderBlockColor: 'GrayText', paddingTop: '20px' }}>
-          <br></br>
-          <div className='container' style={{ backgroundColor: 'white', borderBlockColor: 'GrayText' }}>
-            <div class="row">
-
-              <div class="col-6 col-md-4"><h4 style={{ color: '	#808080' }}>Diamante Blockchain Explorer</h4></div>
-              <div class="col-6 col-md-4"></div>
-              <div class="col-6 col-md-4">   <div class="input-group mb-3" >
-              <input type="text" class="form-control" style={{ height: '38px' }} onChange={(e) => handleClick(e.target.value)} placeholder="Tx hash / Address / ledger" onKeyPress={(e) => _handleKeyDown(e) }></input>
-                <Link style={{  backgroundColor: 'white', borderColor: "white", color: 'grey' }} class="btn btn-outline-primary" to={to } state={[typ, search]}>search</Link>
-              </div></div>
-
-            </div>
-          </div>
-        </div> */}
       <div class="row" style={{ backgroundColor: 'white', borderBlockColor: 'GrayText', paddingTop: '20px' }}>
         <br></br>
         <div class="container" style={{ backgroundColor: '#white', borderBlockColor: 'GrayText' }}>
