@@ -169,8 +169,8 @@ class App extends Component {
 
   swtichNetwork(e) {
    
-    window.open("http://localhost:3001/","_self")
-
+    window.open( "http://52.52.213.122:3001/","_self")
+    
   }
 
 
