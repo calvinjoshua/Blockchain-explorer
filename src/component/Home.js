@@ -169,8 +169,8 @@ class App extends Component {
 
   swtichNetwork(e) {
    
-    window.open( "http://52.52.213.122:3001/","_self")
-    
+    window.open( "https://explorer.diamcircle.io/","_self")
+
   }
 
 
@@ -194,8 +194,8 @@ class App extends Component {
           <br></br>
           <div class='container' style={{ backgroundColor: 'white', borderBlockColor: 'GrayText' }}>
             <div class="row">
-              <div class="col"><a href="/"> <div style={{ color: '#808080', fontWeight: 'bold', fontSize: "20px"  }}>Blockchain Explorer</div>  </a> </div>
-              <div class="col"><div style={{ color: '#808080',float:"left" , fontWeight: 'bold', fontSize: "20px"  }}>Mainnet</div> </div>
+              <div class="col"><a href="/"> <div style={{ color: '#808080', fontWeight: 'bold', fontSize: "20px"  }}>Diamante Blockchain</div>  </a> </div>
+              <div class="col"><div style={{ color: '#808080',float:"left" , fontWeight: 'bold', fontSize: "20px"  }}>Testnet Explorer</div> </div>
               <div class="col">
                 {/* <div class="input-group mb-3" >
                   <input type="text" class="form-control" onChange={(e) => this.handleClick(e.target.value)} placeholder="Tx hash / Address / ledger" id="myInput" onKeyPress={(e) => this._handleKeyDown(e)} ></input>
@@ -204,7 +204,7 @@ class App extends Component {
                   <input type="text" class="form-control"  placeholder="Tx hash / Address / ledger" id="myInput" onKeyPress={(e) => this._handleKeyDown(e, e.target.value)} ></input>
                 </div>
               </div>
-              <div class="col" style={{ float: "right" }}><Button style={{backgroundColor:"white", borderColor:"white", color:"gray"}} onClick={() => this.swtichNetwork()}>Switch to Testnet</Button></div>
+              <div class="col" style={{ float: "right" }}><Button style={{backgroundColor:"white", borderColor:"white", color:"gray"}} onClick={() => this.swtichNetwork()}>Switch to Mainnet</Button></div>
             </div>
           </div>
         </div>

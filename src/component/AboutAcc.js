@@ -82,7 +82,7 @@ function Account() {
 
   const swtichNetwork = () => {
 
-    window.open("http://localhost:3100/", "_self")
+    window.open( "https://explorer.diamcircle.io/","_self")
 
   }
 
@@ -154,11 +154,11 @@ function Account() {
             <div class="col"><a href="/"> <h4 style={{ color: '#808080', float:"right" }}>Diamante Blockchain Explorer</h4>  </a>  </div>
             <div class="col"></div> */}
             <div class="col"><a href="/"> <div style={{ color: '#808080', fontWeight: 'bold', fontSize: "20px" }}>Diamante Blockchain</div>  </a> </div>
-            <div class="col"><div style={{ color: '#808080', float: "left", fontWeight: 'bold', fontSize: "20px" }}>Mainnet Explorer</div> </div>
+            <div class="col"><div style={{ color: '#808080', float: "left", fontWeight: 'bold', fontSize: "20px" }}>Testnet Explorer</div> </div>
             <div class="col-6 col-md-4">   <div class="input-group mb-3" >
             <input type="text" class="form-control" style={{ height: '38px' }} placeholder="Tx hash / Address / ledger" onKeyPress={(e) => _handleKeyDown(e, e.target.value) }></input>
             </div></div>
-            <div class="col"> <Button style={{ backgroundColor: "white", borderColor: "white", color: "gray" }} onClick={() => swtichNetwork()}>Switch to Testnet</Button></div>
+            <div class="col"> <Button style={{ backgroundColor: "white", borderColor: "white", color: "gray" }} onClick={() => swtichNetwork()}>Switch to Mainnet</Button></div>
 
 
           </div>
